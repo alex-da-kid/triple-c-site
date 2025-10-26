@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Case Studies"
 enable: true
 
 options:
@@ -9,7 +9,7 @@ options:
 
 button:
   # Refer to the `sharedButton` schema in `src/sections.schema.ts` for all available configuration options (e.g., enable, label, url, hoverEffect, variant, icon, tag, rel, class, target, etc.)
-  enable: true
+  enable: false
   label: "View all"
   url: "/"
   # hoverEffect: "" # Optional: text-flip | creative-fill | magnetic | magnetic-text-flip

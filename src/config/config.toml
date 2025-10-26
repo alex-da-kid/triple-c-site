@@ -1,8 +1,8 @@
 # Site Configuration
 [site]
-  title            = "Folex" # Shared title for SEO and OpenGraph
-  description      = "A highly customizable creative agency business theme built with Tailwind CSS and Astro Js" # Shared description for SEO and OpenGraph
-  tagline          = "Creative Agency & Personal Portfolio Business Theme"
+  title            = "Triple-C" # Shared title for SEO and OpenGraph
+  description      = "Strategic marketing agency delivering results-driven digital solutions for ambitious businesses. Expert web development, paid advertising, SEO, and sales funnels." # Shared description for SEO and OpenGraph
+  tagline          = "Strategic Marketing That Delivers Results"
   taglineSeparator = "" # default is " - " 
   baseUrl          = "https://folex-lite-astro.vercel.app/" # Base URL for the site and used in OpenGraph meta tags.
   logo             = "/images/logo.svg" # Path to the site's logo
@@ -25,13 +25,14 @@
 # Specific SEO configurations that complement the general site settings.
 # -----------------------------------------------------------------------------------------------------------------------------------
 [seo]
-  author = "Getastrothemes"
+  author = "Triple-C Marketing"
   keywords = [
-    "free digital agency",
-    "free astro template",
-    "free astro theme",
-    "free astro agency template",
-    "free astro agency theme",
+    "digital marketing agency",
+    "web development",
+    "paid advertising",
+    "SEO services",
+    "email marketing",
+    "sales funnel development",
   ]
   robots = "index, follow" # Instructs search engines on how to crawl and index the pages.
 
@@ -63,7 +64,7 @@
   # Contact form settings
   # Available providers: "formspree", "formsubmit.co", "netlify"
   # Available actions: "https://formspree.io/f/form_id", "https://formsubmit.co/your_email@example.com", "/"
-  contactFormAction   = "https://formsubmit.co/your_email@example.com"
+  contactFormAction   = "https://formsubmit.co/hello@triplec.agency"
   contactFormProvider = "formsubmit.co"
 
   footerDescription = "" # Check src/i18n/en.json and src/i18n/fr.json for changing the footer description in different languages or directly add value here if you are not using internationalization feature
@@ -79,16 +80,16 @@
   [settings.multilingual]
     # Set `enable` to `true` for enabling the multilingual feature or `false` for disabling it.
     # Run `npm run remove-multilingual` for removing multilingual content files after disabling the feature.
-    enable               = true
+    enable               = false
     defaultLanguage      = "en"
     disableLanguages     = [] # List of languages to disable (eg: ["fr", "es"])
     showDefaultLangInUrl = false # Show default language in URL (eg: https://getastrothemes.com/en/)
 
   # Global Contact Information
   [settings.contactInfo]
-    address = "27 Division St, New York, <br /> NY 10002, USA"
-    email   = "[folex.agency@mail.com](mailto:folex.agency@mail.com)"
-    phone   = "[+1 800 123 654 987](tel:+1800123654987)"
+    address = "Rua Pais Leme 215 - Sala 1713 - Pinheiros, <br /> São Paulo - SP, 05424-150, Brazil"
+    email   = "[hello@triplec.agency](mailto:hello@triplec.agency)"
+    phone   = "[+55 (11) 93535-3848](tel:+5511935353848)"
 
   # Header Offcanvas Configuration
   # Update social links in `src/config/social.json`
@@ -101,13 +102,13 @@
     [settings.headerOffcanvas.button]
       enable = true
       label  = "" # Check src/i18n/en.json and src/i18n/fr.json for changing the button label in different languages or directly add value here if you are not using internationalization feature
-      url    = "/"
+      url    = "#footer-with-contact"
 
 # Navigation Button In Header
 [settings.navigationButton]
   enable = true
   label  = "" # Check src/i18n/en.json and src/i18n/fr.json for changing the navigation button label in different languages or directly add value here if you are not using internationalization feature
-  url    = "/"
+  url    = "#footer-with-contact"
 
 
 # OpenGraph Metadata

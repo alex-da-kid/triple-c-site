@@ -4,18 +4,18 @@
     "learnMoreAbout": "Learn more about",
     "paginationPrevious": "Previous",
     "paginationNext": "Next",
-    "paginationPortfolioPrev": "Previous Portfolio",
-    "paginationPortfolioNext": "Next Portfolio"
+    "paginationPortfolioPrev": "Previous Case Study",
+    "paginationPortfolioNext": "Next Case Study"
   },
   "headerOffcanvas": {
-    "description": "We are a digital agency that helps businesses create immersive experiences.",
-    "buttonLabel": "Let’s Talk With Us"
+    "description": "Triple-C exists to help ambitious businesses smash their targets through strategic and innovative advertising.",
+    "buttonLabel": "Schedule Consultation"
   },
   "navigation": {
-    "buttonLabel": "Get Started"
+    "buttonLabel": "Schedule Consultation"
   },
   "footer": {
-    "copyright": "Copyright © {{ year }} by your company / Crafted with [Getastrothemes](https://getastrothemes.com/)",
+    "copyright": "Copyright © 2025 Triple-C Marketing LTDA. All rights reserved. | CNPJ: 63.276.289/0001-96",
     "_comment": "We kindly appreciate it if you retain the theme copyright. Thank you for supporting Getastrothemes!"
   }
 }

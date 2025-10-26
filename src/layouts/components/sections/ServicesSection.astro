@@ -45,6 +45,13 @@ let services = (await getCollectionCTM("services", Astro.currentLocale)) as
   | Service[]
   | any[];
 
+// Sort services by date in ascending order (oldest first)
+services = services.sort((a, b) => {
+  const dateA = new Date(a.data.date).getTime();
+  const dateB = new Date(b.data.date).getTime();
+  return dateA - dateB;
+});
+
 if (layout === "accordion") {
   services = services.map((service) => {
     return {

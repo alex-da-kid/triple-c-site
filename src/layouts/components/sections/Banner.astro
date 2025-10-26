@@ -36,15 +36,15 @@ let { title, image, titleSize, description, button } =
 
 // Font sizes for the heading (useful if you have a long heading)
 const fontSizeMap: Record<NonNullable<typeof titleSize>, string> = {
-  "display-1": "text-display-3 lg:text-display-2 xl:text-display-1",
-  "display-2": "text-display-5 md:text-display-3 xl:text-display-2",
-  "display-3": "text-display-5 md:text-display-4 xl:text-display-3",
+  "display-1": "text-display-5 md:text-display-4 lg:text-display-3",
+  "display-2": "text-display-6 md:text-display-5 lg:text-display-4",
+  "display-3": "text-display-6 md:text-display-5 xl:text-display-4",
 };
 
 const fontSize = titleSize ? fontSizeMap[titleSize] : fontSizeMap["display-1"];
 ---
 
-<section class="text-light mb-24 bg-black pt-52 md:mb-32">
+<section class="text-light mb-24 bg-black pt-24 md:pt-32 md:mb-32">
   <div class="container">
     <div class="mx-auto max-w-7xl space-y-7 text-center md:space-y-10">
       {

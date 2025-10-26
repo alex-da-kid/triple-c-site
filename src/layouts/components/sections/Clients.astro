@@ -25,6 +25,7 @@ let actualContent = overrideObjects(
 let {
   enable = true,
   title,
+  description,
   list,
   options: { columnsPerRow, appearance } = {},
 } = actualContent;
@@ -40,14 +41,23 @@ if (!enable) {
   <div class="container space-y-8 md:space-y-16">
     {
       title && (
-        <div class="mx-auto lg:max-w-3xl">
+        <div class="mx-auto lg:max-w-3xl space-y-6">
           <h2
             class:list={[
-              "text-h1-sm md:text-h1 text-center",
+              "text-display-6 md:text-display-5 text-center",
               isDarkAppearance && "text-light",
             ]}
             set:html={markdownify(title)}
           />
+          {description && (
+            <p
+              class:list={[
+                "text-lg text-center mx-auto max-w-2xl",
+                isDarkAppearance && "text-light",
+              ]}
+              set:html={markdownify(description)}
+            />
+          )}
         </div>
       )
     }

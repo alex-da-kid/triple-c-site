@@ -1,7 +1,7 @@
 ---
 enable: true # Control the visibility of this section across all pages where it is used
-title: "Have Any Project on Your Mind?"
-description: "Great! We're excited to hear from you and let's start something"
+title: "Schedule Your Consultation"
+description: "Ready to take your business to the next level? Let's talk about how we can help you achieve your goals."
 
 # image: "/images/about-us/about-one.jpg"
 # imagePosition: "left" # Choose between "left" or "right"
@@ -9,8 +9,8 @@ description: "Great! We're excited to hear from you and let's start something"
 map:
   enable: true
   position: "right" # Choose between "left" or "right"
-  title: "Map of New Work City"
-  url: https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed # Embed map iframe URL generated from https://www.maps.ie/create-google-map/
+  title: "Find Us in São Paulo"
+  url: https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Rua%20Pais%20Leme%20215,%20Pinheiros,%20S%C3%A3o%20Paulo+(Triple-C%20Marketing)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed # Embed map iframe URL generated from https://www.maps.ie/create-google-map/
 
 # contactInformation:
 #   - title: "Headquarters"
@@ -59,7 +59,7 @@ map:
 # Check config.toml file for form action related settings
 # this is also used in the footer of the personal portfolio homepage
 form:
-  emailSubject: "New form submission from folex website" # Customized email subject (applicable when anyone submit form, form submission may receive by email depend on provider)
+  emailSubject: "New consultation request from Triple-C website" # Customized email subject (applicable when anyone submit form, form submission may receive by email depend on provider)
   submitButton:
     # Refer to the `sharedButton` schema in `src/sections.schema.ts` for all available configuration options (e.g., enable, label, url, hoverEffect, variant, icon, tag, rel, class, target, etc.)
     enable: true
@@ -185,5 +185,5 @@ form:
       content: We have received your message! We'll get back to you as soon as possible.
     - note: deprecated # info | warning | success | deprecated | hint
       parentClass: "hidden text-sm message error"
-      content: Something went wrong! please use this mail - [folex-astro-theme@gmail.com](mailto:folex-astro-theme@gmail.com) to submit a ticket!
+      content: Something went wrong! please use this mail - [hello@triplec.agency](mailto:hello@triplec.agency) to reach us directly!
 ---

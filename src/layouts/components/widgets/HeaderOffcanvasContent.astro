@@ -60,12 +60,6 @@ if (!enable) {
     {email && <p set:html={markdownify(email)} />}
   </div>
 
-  <Social
-    linkType="follow"
-    size="md"
-    list={social.main.filter((social) => social.enable)}
-  />
-
   <CustomButton
     variant="circle"
     class="btn-accent m-0 ms-auto hidden justify-center lg:flex"

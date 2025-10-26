@@ -12,13 +12,13 @@
     },
     {
       "enable": true,
-      "name": "Projects",
+      "name": "Case Studies",
       "url": "/#projects"
     },
     {
       "enable": true,
-      "name": "Pricing",
-      "url": "/#pricing"
+      "name": "Contact",
+      "url": "/#footer-with-contact"
     }
   ]
 }
