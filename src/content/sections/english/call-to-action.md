@@ -9,7 +9,7 @@ button:
   enable: true
   variant: "fill" # Options: "fill" | "outline" | "text" | "circle"
   label: "Schedule Consultation"
-  url: "#contact"
+  url: "https://calendly.com/alex-triplec/30min"
   rel: ""
   target: ""
 
