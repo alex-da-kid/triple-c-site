@@ -1,5 +1,6 @@
 ---
-title: "Case Studies"
+title: "Working with brands at the top of their game"
+subtitle: "We share our knowledge with like-minded businesses. The sky really is the limit when we put our heads together to achieve lofty goals. See for yourself examples of how we've helped these businesses shoot for the stars."
 enable: true
 
 options:

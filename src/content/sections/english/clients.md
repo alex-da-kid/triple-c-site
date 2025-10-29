@@ -1,7 +1,7 @@
 ---
 enable: true # Control the visibility of this section across all pages where it is used
-title: "Working with brands at the top of their game"
-description: "We share our knowledge with like-minded businesses. The sky really is the limit when we put our heads together to achieve lofty goals. See for yourself examples of how we've helped these businesses shoot for the stars."
+title: "We're Triple-C"
+description: "We are a full-service performance agency based in São Paulo, Brazil.\n\nTriple-C exists to help ambitious businesses smash their targets through strategic and innovative advertising. The world of digital marketing is ever-changing and to stay ahead of the pack, no stone can be left unturned. We have a growing team of the best digital marketing professionals across two locations who love to constantly innovate to find your competitive edge."
 
 list:
   - alt: "Client 1"

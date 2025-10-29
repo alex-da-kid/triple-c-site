@@ -35,7 +35,7 @@ const config = parseTomlToJson();
 const t = await useTranslations(Astro.currentLocale as string);
 
 // Extracting required values from 'content' object
-let { enable = true, title, options } = actualContent as PortfolioInterface;
+let { enable = true, title, subtitle, options } = actualContent as PortfolioInterface;
 
 const { layout, appearance, limit } = options || {};
 
@@ -61,17 +61,30 @@ if (!enable) {
       layout === "slider" && "overflow-hidden",
     ]}>
     <div class="container space-y-14">
-      {
-        title && (
-          <h2
-            class:list={[
-              "text-h1-sm md:text-h1 mx-auto max-w-4xl text-center",
-              isDarkAppearance && "text-light",
-            ]}
-            set:html={markdownify(title)}
-          />
-        )
-      }
+      <div class="mx-auto max-w-4xl text-center space-y-6">
+        {
+          title && (
+            <h2
+              class:list={[
+                "text-h1-sm md:text-h1",
+                isDarkAppearance && "text-light",
+              ]}
+              set:html={markdownify(title)}
+            />
+          )
+        }
+        {
+          subtitle && (
+            <p
+              class:list={[
+                "text-lg opacity-80",
+                isDarkAppearance ? "text-light" : "text-inherit",
+              ]}
+              set:html={markdownify(subtitle)}
+            />
+          )
+        }
+      </div>
       {
         layout === "masonry" || layout === "grid" ? (
           <div
