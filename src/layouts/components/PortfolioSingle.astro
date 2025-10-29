@@ -87,6 +87,17 @@ if (Array.isArray(information)) {
           </div>
         )
       }
+      {
+        Array.isArray(images) && images.length === 1 && (
+          <div>
+            <OptimizedImage
+              src={images[0]}
+              alt={title}
+              class="h-112.5 w-full object-cover md:h-137.5"
+            />
+          </div>
+        )
+      }
 
       <div
         class="grid max-w-full grid-cols-1 max-xl:space-y-8 xl:grid-cols-7 xl:gap-x-20">
